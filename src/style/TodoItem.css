@@ -1,0 +1,38 @@
+.TodoItem {
+    margin:  2%; 
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px #2c2c2c;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .TodoItem + .TodoItem {
+    margin-top: 15px;
+  }
+  
+  .content {
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .content svg {
+    font-size: 1.5rem;
+    color: #2C786C;
+  }
+  .content .text {
+    margin-left: 0.5rem;
+    flex: 1;
+    width: 30%;
+  }
+  
+  .content.isCompleted .text {
+    color: #000000;
+    text-decoration: line-through;
+    cursor: pointer;
+    opacity: 0.6;
+    width: 30%;
+  }

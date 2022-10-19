@@ -1,0 +1,49 @@
+
+@import "../fonts/default.css";
+
+.LoginForm {
+    padding-top: 20px;
+    margin: 5% auto;
+    width: 40%;
+    background-color: #FAF5E2;
+    border-radius: 40px;
+    text-align: center;
+  }
+
+  .LoginTitle {
+    font-family: "NanumSquareNeo-eHv";
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin: 5%;
+  }
+
+  .form-row {
+    font-size: 1rem;
+    margin: 5%;
+    letter-spacing: 1px;
+    font-family: "NanumSquareNeo-dEb";
+  }
+
+  .inputText {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 60%;
+    height: 30px;
+    background-color: #FAF5E2;
+    font-family: "NanumSquareNeo-bRg";
+  }
+
+
+  .loginBtn {
+    margin: 10% auto 5%;
+    width: 140px;
+    height: 50px;
+    letter-spacing: 4px;
+    font-size: 15px;
+    background-color: rgb(247, 215, 74);
+    border-radius: 10px;
+    font-family: "NanumSquareNeo-dEb";
+    
+
+  }

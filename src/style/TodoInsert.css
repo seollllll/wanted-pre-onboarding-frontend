@@ -1,0 +1,59 @@
+.background {
+    position: fixed;
+    z-index: 980;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .insertForm {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px #2C786C;
+    background: white;
+    
+  }
+  
+  form > input {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #2C786C;
+    padding: 0.5rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    
+  }
+  
+  form > button {
+    padding-top: 20px;
+    background: none;
+    outline: none;
+    border: none;
+    color: #2C786C;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+  }
+  
+  .rewrite > svg {
+    padding-top: 20px;
+    color: #2C786C;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    
+  }
